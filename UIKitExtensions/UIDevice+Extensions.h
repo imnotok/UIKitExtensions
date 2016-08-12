@@ -19,4 +19,10 @@
 
 @interface UIDevice (Extensions)
 
+/**
+ *  add by BJ.y
+ *
+ *  @return device platform name
+ */
++ (NSString *)devicePlatformName;
 @end
